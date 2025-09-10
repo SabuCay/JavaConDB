@@ -4,7 +4,7 @@ import java.sql.*;
 
 public class Main {
 
-    public static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";
+    //public static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";
     public static final String DATABASE_URL = "jdbc:mysql://localhost:3306/ap";
     public static Connection con;
     /**   we want to use JDBC protocol, mysql DBMS , the local host with
